@@ -1,0 +1,22 @@
+# macos
+.DS_Store
+
+# media / large binaries
+*.mp4
+*.mov
+
+# .net build output
+bin/
+obj/
+*.user
+
+# terraform
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+*.tfplan
+# tfvars can hold secrets — commit *.tfvars.example instead if needed
+*.tfvars
+crash.log
+crash.*.log
