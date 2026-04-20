@@ -4,6 +4,9 @@
 # media / large binaries
 *.mp4
 *.mov
+*.png
+*.jpg
+*.jpeg
 
 # .net build output
 bin/
